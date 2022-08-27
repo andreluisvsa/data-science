@@ -1,0 +1,41 @@
+# export variables
+export instanceId=i-055cbc36d9ee0c529
+export subnetId=subnet-0a8501865f1dfecc5
+export securityGroupId=sg-055d22b892ccc5206
+export instanceUrl=ec2-50-112-201-241.us-west-2.compute.amazonaws.com
+export routeTableId=rtb-0881a196f2b09693c
+export name=fast-ai
+export vpcId=vpc-0a68a270bfba5af13
+export internetGatewayId=igw-09f857e6e29cec49d
+export subnetId=subnet-0a8501865f1dfecc5
+export allocAddr=eipalloc-01fa1040c69dc2d5e
+export assocId=eipassoc-0d5ad1062af604dd8
+export routeTableAssoc=rtbassoc-0a7390806a138a10a
+
+# Start your instance:
+aws ec2 start-instances --instance-ids i-055cbc36d9ee0c529
+
+# Connect to your instance:
+ssh -i /home/alvsa/.ssh/aws-key-fast-ai.pem ubuntu@ec2-50-112-201-241.us-west-2.compute.amazonaws.com
+
+# ir para o diretorio fastai e atualizar
+cd fastai
+git pull
+
+# Start Jupyter
+jupyter notebook
+http://ec2-50-112-201-241.us-west-2.compute.amazonaws.com:8888/
+password: dl_course
+
+################################################################
+# Reboot your instance:
+aws ec2 reboot-instances --instance-ids i-055cbc36d9ee0c529
+
+# Stop your instance: :
+aws ec2 stop-instances --instance-ids i-055cbc36d9ee0c529
+
+# Fazer updload de arquivos para AWS (no /home ":")
+scp -i /home/alvsa/.ssh/aws-key-fast-ai.pem /home/alvsa/data/Valid.zip  ubuntu@ec2-50-112-201-241.us-west-2.compute.amazonaws.com:/home/ubuntu/downloads/Valid.zip
+
+
+

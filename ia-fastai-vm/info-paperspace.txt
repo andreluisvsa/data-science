@@ -1,0 +1,19 @@
+http://localhost:8888/?token=889bf16b668f737307086281f6134aa46a77e52b9dfc0a93
+
+Senha: HEwUpfysnSeS
+PRIVATE IP: 10.64.56.197
+PUBLIC IP: 172.83.14.105
+
+Notebook:
+
+http://172.83.14.105:8888/?token=889bf16b668f737307086281f6134aa46a77e52b9dfc0a93
+
+http://172.83.14.105:8888/?token=53b233b979f0435532395afd0ffce1f75aae0b5a802cd004
+
+
+cd fastai
+git pull
+conta env update
+jupyter notebook
+
+http://172.83.14.105:8888/?token=b600e02425d47960008b389f16f1033b0f4155871d4b6bda&token=b600e02425d47960008b389f16f1033b0f4155871d4b6bda

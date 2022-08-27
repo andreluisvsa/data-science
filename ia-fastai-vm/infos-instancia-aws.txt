@@ -1,0 +1,61 @@
+++ instanceUrl=ec2-50-112-201-241.us-west-2.compute.amazonaws.com
+++ echo export instanceId=i-055cbc36d9ee0c529
+++ echo export subnetId=subnet-0a8501865f1dfecc5
+++ echo export securityGroupId=sg-055d22b892ccc5206
+++ echo export instanceUrl=ec2-50-112-201-241.us-west-2.compute.amazonaws.com
+++ echo export routeTableId=rtb-0881a196f2b09693c
+++ echo export name=fast-ai
+++ echo export vpcId=vpc-0a68a270bfba5af13
+++ echo export internetGatewayId=igw-09f857e6e29cec49d
+++ echo export subnetId=subnet-0a8501865f1dfecc5
+++ echo export allocAddr=eipalloc-01fa1040c69dc2d5e
+++ echo export assocId=eipassoc-0d5ad1062af604dd8
+++ echo export routeTableAssoc=rtbassoc-0a7390806a138a10a
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Connect to your instance: 
+ssh -i /home/alvsa/.ssh/aws-key-fast-ai.pem ubuntu@ec2-50-112-201-241.us-west-2.compute.amazonaws.com
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+$ aws ec2 get-console-output --instance-id i-055cbc36d9ee0c529
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Jupyter Notebook
+http://ec2-50-112-201-241.us-west-2.compute.amazonaws.com:8888/
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+-----BEGIN SSH HOST KEY KEYS-----
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBN/QA4GuJcz2hpX/yIEqtXLAdnkcdmmnVxJNFzleOFTsQfzeHvQvycSSkpHduLteaoNPrRc2agRxJh1Xdtl37Kk= root@ip-10-0-0-13
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICDa6N9LtwkFGlP9Np4nr3pG+INtG7OYncRzlv4vG2+X root@ip-10-0-0-13
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCxDyoFIOGlXYtu65p0C0vRApu2ntb3NyZcaPxUj1sxDPX0Zgu5V0DxaxBRpyWmt2EYhq5bGqWGKsPqJO0ecBlYB6M5wLZOo1P8LQkEQ0nLwbny2e9d3BY5BMqDBVac8LJ9oAXcnJO9dA1uGwouZWG3DDn60BnX8nlxKm4A+b7ubEVvM9ehTUg47RbRSM2wjlc1+eUbccDpsa+F85F4kFUuilcCQjju/TVqaLF1KoAoHnHPwSpwBGumbhILnazH1FPQOcQwnZZIC0aFhruXB79ODPfwaO/eOra3ZiLfkNsrK0fY/g+6EgIC9/djc49eE4ejhjkZeFMpLKpgSXeLVgCF root@ip-10-0-0-13
+-----END SSH HOST KEY KEYS-----
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+# Fast.ai Commands
+
+# Connect to your instance:
+ssh -i /home/alvsa/.ssh/aws-key-fast-ai.pem ubuntu@ec2-50-112-201-241.us-west-2.compute.amazonaws.com
+# Stop your instance: :
+aws ec2 stop-instances --instance-ids i-055cbc36d9ee0c529
+# Start your instance:
+aws ec2 start-instances --instance-ids i-055cbc36d9ee0c529
+# Reboot your instance:
+aws ec2 reboot-instances --instance-ids i-055cbc36d9ee0c529
+export instanceId=i-055cbc36d9ee0c529
+export subnetId=subnet-0a8501865f1dfecc5
+export securityGroupId=sg-055d22b892ccc5206
+export instanceUrl=ec2-50-112-201-241.us-west-2.compute.amazonaws.com
+export routeTableId=rtb-0881a196f2b09693c
+export name=fast-ai
+export vpcId=vpc-0a68a270bfba5af13
+export internetGatewayId=igw-09f857e6e29cec49d
+export subnetId=subnet-0a8501865f1dfecc5
+export allocAddr=eipalloc-01fa1040c69dc2d5e
+export assocId=eipassoc-0d5ad1062af604dd8
+export routeTableAssoc=rtbassoc-0a7390806a138a10a

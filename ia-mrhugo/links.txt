@@ -1,0 +1,33 @@
+http://indiewarehouse.com.br
+
+-------------------------------
+[13:46, 15/11/2018] Hugo TSE: Ow, basicamente a proposta toda está em extrair conceitos de imagens, do mesmo modo que nosso sistema visual parece fazer
+[13:47, 15/11/2018] Hugo TSE: Para conseguir ler, por exemplo, é preciso entender uma imagem de uma letra:
+
+Para entender uma imagem, usamos muitos subsistemas (V1, V2, V3, V4, MT, PO, TEO, TE, etc) para quebrar a informação em conceitos granulares para criar uma Rede/Árvore de conceitos com essa informação, como forma, ângulos específicos, ângulos mais genéricos, cor, padrão, etc. Utilizamos para identificar letras os elementos que temos para identificar formatos do dia à dia como uma montanha ou a ponta de um galho, etc.
+[13:48, 15/11/2018] Hugo TSE: Assim, do mesmo modo que uma letra "M" possuiria elementos conceituais relacionados à forma em sua estrutura, os mesmos elementos estariam presentes em um prédio de aparência semelhante. Assim, um agente poderia visualizar o prédio e relaciona-lo à letra "M" a partir do entendimento da constituição de seus elementos conceituais básicos.
+[13:49, 15/11/2018] Hugo TSE: Para a audição, do mesmo modo, é construída uma rede de sons a medida que as diferentes estruturas ciliadas dentro da cóclea são ativadas. Quase que um dicionário de sons.
+[13:49, 15/11/2018] Hugo TSE: Mais uma vez, em paralelo, é construída uma rede de estimulação muscular, onde a partir de movimentos exploratórios é mapeada e criada a rede de movimentos e estimulação muscular.
+[13:49, 15/11/2018] Hugo TSE: Quando um bebê balbucia e produz uma "AAAA", "BUUUU", "MAAAA", ele está construindo uma rede de novos conceitos musculares e, ao mesmo tempo, alimentando e construindo a rede de conceitos auditivos, sendo que as duas redes acabam por se conectar devido a proximidade temporal de construção e ativação.
+[13:52, 15/11/2018] Hugo TSE: Estas redes podem ser construídas/formadas, inclusive, antes de estarem totalmente ligadas entre si a exemplo onde uma rede/floresta de conceitos sobre formas de uma letra pode ser construída antes mesmo que a rede muscular de conceitos dos órgãos vocais seja ligada à rede de conceito de sons específicos.
+
+Exemplo:
+
+Uma pessoa pode ser capaz de ler "Arnold Schwarzenegger" sem saber como se "pronuncia" "Arnold Schwarzenegger" mas sabendo que ele é um ator.
+[13:52, 15/11/2018] Hugo TSE: O oposto também é válido onde uma rede/floresta de conceitos de sons específicos pode ser construída e ligada a rede de conceitos de objetos em memória antes mesmo de estar ligada à rede de conceitos sobre formas de uma letra.
+
+Exemplo:
+
+Uma pessoa pode ser capaz de pronunciar "Neko" (Gato, em Japonês) sem saber que as "letras" "猫" pronunciam esse som, mas sabendo que o Neko é um felino.
+[13:53, 15/11/2018] Hugo TSE: Você precisa ter em sua memória a vasta Rede/Floresta de conceitos que está associada às formas de letras, a árvore dos conceitos da junção dessas letras (palavra) e a árvore dos conceitos de significado associados a essas junção de letras. 
+Se você não tem essas redes de conceitos construídas ou ligadas às redes que formam palavras ou mesmo letras e tenta ler um livro em um idioma desconhecido, você só verá as formas que você pode associar aos conceitos que já possuir ligados a estas formas em memória.
+[13:53, 15/11/2018] Hugo TSE: Em suma, a estrutura de uma linguagem não difere muito do ato de ver, ouvir, movimentar-se e livremente fazer associações dentre estes diferentes tipos de redes de conceitos.
+[13:53, 15/11/2018] Hugo TSE: Basicamente é ista a relação conceitos / inputs
+
+---------------------------------------------------------
+
+[12:47, 15/11/2018] Hugo TSE: https://www.frontiersin.org/articles/10.3389/fnsys.2016.00095/full
+[12:48, 15/11/2018] Hugo TSE: Acho que uma abordagem tendo como inspiração o biológico é uma boa
+[12:48, 15/11/2018] Hugo TSE: https://www.psychologytoday.com/intl/blog/ulterior-motives/201711/messing-information-in-short-term-memory
+[12:50, 15/11/2018] Hugo TSE: https://www.technologyreview.com/s/611640/data-mining-reveals-fundamental-pattern-of-human-thinking/
+https://www.technologyreview.com/s/612261/neural-networks-dont-understand-what-optical-illusions-are/

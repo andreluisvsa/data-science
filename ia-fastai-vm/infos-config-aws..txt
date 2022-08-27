@@ -1,0 +1,15 @@
+23/05/2018
+----------
+User.....................: usrfastai
+Access key ID............: AKIAIND3U2QAOIB6NROQ
+Secret access key........: AACiIYzz+d3SFON5U+qfAkey3nkRPx58wTVxFCE2
+
+text
+us-west-2
+
+You successfully created the users shown below. You can view and download user security credentials. You can also email users instructions for signing in to the AWS Management Console. This is the last time these credentials will be available to download. However, you can create new credentials at any time.
+
+Users with AWS Management Console access can sign-in at: https://958964923877.signin.aws.amazon.com/console
+
+
+
